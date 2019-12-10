@@ -85,7 +85,7 @@
 		<ul  class="nav navbar-nav navbar-right">
 			<li style="margin-right: 10px; margin-left: 10px;">
 			<div class="btn btn-primary faa-tada animated register-button" href="#countdown">
-			<a class="page-scroll" style="font-family: SanPrancisco;" href="#countdown">Comming Soon</a>
+			<a class="page-scroll" style="font-family: SanPrancisco;" href="#countdown">Coming Soon</a>
 			</div>
 <!-- <a  style="font-family: ERASMD" class="page-scroll btn btn-primary" href="#countdown">Register</a>  -->
 			</li>
@@ -168,10 +168,10 @@
 			<h2 class="section-heading wow bounceInDown">LetMeHACK v2.0 <b>2k20</b></h2>
 			<hr>
 			<p style="color:size: 31px;font-size: 19px;font-family: cursive;color: black;">
-				LetmeHack 2K20 will be the first ever product oriented hackathon in Sabaragamuwa University of Sri Lanka which will be organized with the key idea of building up a complete open source product which can be used by everyone.
+				LetmeHack Eco 2K20 will be the second product oriented hackathon in Sabaragamuwa University of Sri Lanka which will be organized with the key idea of building up a complete open source product which can be used by everyone.
 			</p>
 			<p style="color:size: 31px;font-size: 19px;font-family: cursive;color: black;">
-				This event is planned as a 16-hour product implementation hackathon where university students all over the country are eligible to apply for participation and among them the best 20 teams will be shortlisted for the hackathon. This hackathon where 20 teams representing different universities pre-registered as team members via the official hackathon website would compete each other driving their skills and talents to find a solution to a live issue in the world/country given by the committee. Participants will be focused to implement a product according to the platform given by the organizing team.
+				This event is planned as a 16-hour product implementation hackathon where university students all over the country are eligible to apply for participation and among them the best 15 teams will be shortlisted for the hackathon. This hackathon where 15 teams representing different universities pre-registered as team members via the official hackathon website would compete each other driving their skills and talents to find a solution to a live issue in the world/country given by the committee. Participants will be focused to implement a product according to the platform given by the organizing team.
 			</p>
 			<p style="color:size: 31px;font-size: 19px;font-family: cursive;color: black;">
 				The implemented product should be a useful outcome and it will be judged by a team of technological experts.
@@ -223,7 +223,7 @@
 				  <div class="col-md-12 col-sm-12 col-xs-12">
 				    <textarea name="comment" type="" class="form-control" placeholder="Message in here"></textarea>
 				  </div>
-				  <div class="col-md-12">
+				  <div class=" col-xs-12 col-sm-12 col-md-12 col-12">
 				  	<button type="submit" name="SubmitButton" class="btn btn-primary tline-item-right right" style="width: 144px; background-color: #368b54; font-size: larger; padding: 10px; height: 48px;">Send</button>
 				  </div>
 			</form>
@@ -293,7 +293,7 @@ if(isset($_POST['SubmitButton'])){ //check if form was submitted
 
 <div class="container-fluid">
 <div class="row">
-<img src="img/fi.png" alt="Smiley face" height="100%" width="100%">
+<img src="img/fi.png" alt="Smiley face" height="100%" width="100%" style="filter: drop-shadow(-2px 1px 0px #222);">
 </div>
 </div>
 
@@ -306,17 +306,17 @@ if(isset($_POST['SubmitButton'])){ //check if form was submitted
 	<div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-sm-8 col-sm-offset-2">
 		<div class="row">
 			<div class="col-md-1 col-md-offset-4 col-sm-2 col-sm-offset-2 col-xs-2 col-xs-offset-2">
-				<div class="funfacts text-center">
+				<div class="funfacts text-center" style="font-size: 22px;color: white;background-color: #ffffff;border-radius: 40px;width: 36px;">
 					<div class="">
-						<a href="https://www.facebook.com/Letmehack.lk/"><!-- <i class="fa fa-facebook"></i> --><img style="height: 50px;" src="img/f.png"></a>
+						<a href="https://www.facebook.com/Letmehack.lk/"><i class="fa fa-facebook"></i></a>
 					</div>
 					<h4></h4>
 				</div>
 			</div>
 			<div class="col-md-1 col-sm-2 col-xs-2">
 				<div class="funfacts text-center">
-					<div class="">
-						<a href="https://twitter.com/letmehack2k18" target="_blank"><!-- <i class="fa fa-twitter"></i> --><img style="height: 50px;" src="img/t.png"></a>
+					<div class="funfacts text-center" style="font-size: 22px;color: white;background-color: #ffffff;border-radius: 40px;width: 36px;">
+						<a href="https://twitter.com/letmehack2k18" target="_blank"><i class="fa fa-twitter"></i></a>
 					</div>
 					<h4></h4>
 				</div>
@@ -324,16 +324,16 @@ if(isset($_POST['SubmitButton'])){ //check if form was submitted
 			
 			<div class="col-md-1 col-sm-2 col-xs-2">
 				<div class="funfacts text-center">
-					<div class="">
-						<a href="https://www.instagram.com/letmehack2k18/" target="_blank"><!-- <i class="fa fa-instegram"></i> --><img style="height: 50px;" src="img/i.png"></a>
+					<div class="funfacts text-center" style="font-size: 22px;color: white;background-color: #ffffff;border-radius: 40px;width: 36px;">
+						<a href="https://www.instagram.com/letmehack2k18/" target="_blank"><i class="fa fa-instagram"></i></a>
 					</div>
 					<h4></h4>
 				</div>
 			</div>
 			<div class="col-md-1 col-sm-2 col-xs-2">
 				<div class="funfacts text-center">
-					<div class="">
-						<a href="#"><!-- <i class="fa fa-google"></i> --><img style="height: 50px;" src="img/g.png"></a>
+					<div class="funfacts text-center" style="font-size: 22px;color: white;background-color: #ffffff;border-radius: 40px;width: 36px;">
+						<a href="#"> <i class="fa fa-google"></i></a>
 					</div>
 					<h4></h4>
 				</div>
@@ -344,10 +344,10 @@ if(isset($_POST['SubmitButton'])){ //check if form was submitted
 <div class="row">
 	<div class="col-md-12 col-sm-12 text-center">
 		
-		<p style="margin-bottom: 5px;">
+		<p style="margin-bottom: 5px; color:#ffffff;">
 			All rights reserved &copy;2019
 		</p>
-		<p>Society of Computer Sciences(SOCS), Sabaragamuwa University of Sri Lanka.</p>
+		<p style="color:#ffffff;">Society of Computer Sciences(SOCS) - Sabaragamuwa University of Sri Lanka.</p>
 	</div>
 </div>
 </div>
