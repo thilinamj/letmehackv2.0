@@ -44,14 +44,14 @@ p {
 }
 .bg-dark {
 	color:#ccc;
-	background-color:#7e0133;
+	background-color:#368b54;
 	height: 450px;
 }
 
 @media(min-width:768px) {
 	.bg-dark {
 		color:#ccc;
-		background-color:#7e0133;
+		background-color:#368b54;
 		height: 250px;
 	}
 }
@@ -90,7 +90,7 @@ aside {
 .navbar-default {
 	border-color:rgba(34,34,34,.05);
 	font-family: 'Roboto', sans-serif;
-	background-color:#7e0133;
+	background-color:#368b54;
 	-webkit-transition:all .35s;
 	-moz-transition:all .35s;
 	transition:all .35s;
@@ -151,7 +151,7 @@ aside {
 @media(min-width:768px) {
 	.navbar-default {
 		border:0;
-		background-color:#7e0133;
+		background-color:#368b54;
 		box-shadow:0 1px 0px rgba(0,0,0,0.03);
 	}
 	.navbar-default .navbar-header .navbar-brand:hover,.navbar-default .navbar-header .navbar-brand:focus {
@@ -447,9 +447,10 @@ body {
 	z-index: 10;
 	top: 55px;
 }
+
 .carousel-caption h1 {
 	font-size:90px;
-	color:#fff;
+	color:#125a05;
 	margin-top:10px;
 	margin-bottom:10px;
 	letter-spacing:3px;
@@ -461,7 +462,7 @@ body {
 @media(min-width:1000px) {
 	.carousel-caption h1 {
 		font-size:110px;
-		color:#fff;
+		color:#125a05;
 		margin-top:10px;
 		margin-bottom:10px;
 		letter-spacing:3px;
@@ -475,11 +476,13 @@ body {
 	font-size:30px;
 	letter-spacing:1px;
 	font-weight:300;
+	color: #ec540b;
 }
 
 .carousel-caption h4 {
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
 	border-right: .15em solid orange; /* The typwriter cursor */
+	color: #f4d707;
 	white-space: nowrap; /* Keeps the content on a single line */
 	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
 	letter-spacing: .15em; /* Adjust as needed */
@@ -488,6 +491,7 @@ body {
 	  typing 3.5s steps(40, end),
 	  blink-caret .75s step-end infinite;
   }
+
   
   /* The typing effect */
   @keyframes typing {
@@ -537,7 +541,7 @@ body {
 }
 .intro .item:before {
 	content:"";
-	background-color:rgba(0, 0, 0, 0.35);
+
 	/*ackground-color:rgba(115, 103, 103, 0.36);*/
 	position:absolute;
 	left:0;
