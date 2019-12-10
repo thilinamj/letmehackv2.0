@@ -13,6 +13,7 @@
 <!-- Custom Fonts -->
 <link href='https://fonts.googleapis.com/css?family=Mrs+Sheppards%7CDosis:300,400,700%7COpen+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800;' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="fonts/ERASMD.ttf">
+<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
 <!-- jQuery -->
 
 <style type="text/css">
@@ -143,7 +144,7 @@
 					<img style="height: 60px; width: 60px;" src="img/date.png">
 						<!-- <i class="fa fa-calendar"></i> -->
 					</div>
-					<h4>24th Feb 2018</h4>
+					<h4>2020</h4>
 				</div>
 			</div>
 			<div class="col-md-4">
@@ -152,7 +153,7 @@
 						<img style="height: 60px; width: 60px;" src="img/time.png">
 						<!-- <i class="fa fa-clock-o"></i> -->
 					</div>
-					<h4>9.00 AM Onwards</h4>
+					<h4>-</h4>
 				</div>
 			</div>
 			<div class="col-md-4">
@@ -166,13 +167,13 @@
 			</div>
 			<h2 class="section-heading wow bounceInDown">LetMeHACK v2.0 <b>2k20</b></h2>
 			<hr>
-			<p style="color: #5e5e5e;">
+			<p style="color:size: 31px;font-size: 19px;font-family: cursive;color: black;">
 				LetmeHack 2K20 will be the first ever product oriented hackathon in Sabaragamuwa University of Sri Lanka which will be organized with the key idea of building up a complete open source product which can be used by everyone.
 			</p>
-			<p style="color: #5e5e5e;">
+			<p style="color:size: 31px;font-size: 19px;font-family: cursive;color: black;">
 				This event is planned as a 16-hour product implementation hackathon where university students all over the country are eligible to apply for participation and among them the best 20 teams will be shortlisted for the hackathon. This hackathon where 20 teams representing different universities pre-registered as team members via the official hackathon website would compete each other driving their skills and talents to find a solution to a live issue in the world/country given by the committee. Participants will be focused to implement a product according to the platform given by the organizing team.
 			</p>
-			<p style="color: #5e5e5e;">
+			<p style="color:size: 31px;font-size: 19px;font-family: cursive;color: black;">
 				The implemented product should be a useful outcome and it will be judged by a team of technological experts.
 			</p>
 			
@@ -180,14 +181,11 @@
 	</div>
 </div>
 </section>
-
-<div id="getting-started"></div>
 <!-- Section Fun Facts
 ================================================== -->
 
 <!-- Section Timeline
 ================================================== -->
-
 
 <!-- Section Sponsors
 ================================================== -->
@@ -295,7 +293,7 @@ if(isset($_POST['SubmitButton'])){ //check if form was submitted
 
 <div class="container-fluid">
 <div class="row">
-<img src="img/fg.png" alt="Smiley face" height="100%" width="100%">
+<img src="img/fi.png" alt="Smiley face" height="100%" width="100%">
 </div>
 </div>
 

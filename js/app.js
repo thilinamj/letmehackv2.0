@@ -16,14 +16,14 @@ particlesJS('particles-js',
 {
   "particles": {
     "number": {
-      "value": 160,
+      "value": 400,
       "density": {
         "enable": true,
         "value_area": 800
       }
     },
     "color": {
-      "value": "#30ac28"
+      "value": "#0a7216"
     },
     "shape": {
       "type": "circle",
@@ -41,44 +41,44 @@ particlesJS('particles-js',
       }
     },
     "opacity": {
-      "value": 1,
+      "value": 0.5,
       "random": true,
       "anim": {
-        "enable": true,
+        "enable": false,
         "speed": 1,
-        "opacity_min": 0,
+        "opacity_min": 0.1,
         "sync": false
       }
     },
     "size": {
-      "value": 3,
+      "value": 4,
       "random": true,
       "anim": {
         "enable": false,
-        "speed": 4,
-        "size_min": 0.3,
+        "speed": 12.172854534388321,
+        "size_min": 0.1,
         "sync": false
       }
     },
     "line_linked": {
       "enable": false,
-      "distance": 150,
-      "color": "#ffffff",
-      "opacity": 0.4,
-      "width": 1
+      "distance": 272.4075216523917,
+      "color": "#1cac47",
+      "opacity": 0.08011985930952699,
+      "width": 2
     },
     "move": {
       "enable": true,
-      "speed": 1,
-      "direction": "none",
-      "random": true,
+      "speed": 2.5,
+      "direction": "bottom",
+      "random": false,
       "straight": false,
       "out_mode": "out",
       "bounce": false,
       "attract": {
-        "enable": false,
+        "enable": true,
         "rotateX": 600,
-        "rotateY": 600
+        "rotateY": 1200
       }
     }
   },
@@ -87,7 +87,7 @@ particlesJS('particles-js',
     "events": {
       "onhover": {
         "enable": true,
-        "mode": "bubble"
+        "mode": "repulse"
       },
       "onclick": {
         "enable": true,
@@ -99,18 +99,18 @@ particlesJS('particles-js',
       "grab": {
         "distance": 400,
         "line_linked": {
-          "opacity": 1
+          "opacity": 0.5
         }
       },
       "bubble": {
-        "distance": 250,
-        "size": 0,
-        "duration": 2,
-        "opacity": 0,
+        "distance": 400,
+        "size": 4,
+        "duration": 0.3,
+        "opacity": 1,
         "speed": 3
       },
       "repulse": {
-        "distance": 400,
+        "distance": 200,
         "duration": 0.4
       },
       "push": {
