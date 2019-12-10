@@ -84,22 +84,14 @@
 		<ul  class="nav navbar-nav navbar-right">
 			<li style="margin-right: 10px; margin-left: 10px;">
 			<div class="btn btn-primary faa-tada animated register-button" href="#countdown">
-			<a class="page-scroll" style="font-family: SanPrancisco;" href="#countdown">Register</a>
+			<a class="page-scroll" style="font-family: SanPrancisco;" href="#countdown">Comming Soon</a>
 			</div>
 <!-- <a  style="font-family: ERASMD" class="page-scroll btn btn-primary" href="#countdown">Register</a>  -->
 			</li>
 			<li style="margin-right: 10px; margin-left: 10px;">
 			<a  style="font-family: SanPrancisco" class="page-scroll" href="#about">Why LetMeHack</a>
 			</li>
-			<li style="margin-right: 10px; margin-left: 10px;">
-			<a  style="font-family: SanPrancisco" class="page-scroll" href="#tline">Timeline</a>
-			</li>
-			<li style="margin-right: 10px; margin-left: 10px;">
-			<a  style="font-family: SanPrancisco" class="page-scroll" href="#prices">Awards</a>
-			</li>
-			<li style="margin-right: 10px; margin-left: 10px;">
-			<a  style="font-family: SanPrancisco" class="page-scroll" href="#sponsors">Sponsors</a>
-			</li>
+			
 			<li style="margin-right: 10px; margin-left: 10px;">
 			<a  style="font-family: SanPrancisco" class="page-scroll" href="#contact">Contact Us</a>
 			</li>
@@ -192,75 +184,7 @@
 <div id="getting-started"></div>
 <!-- Section Fun Facts
 ================================================== -->
-<section id="countdown" class="parallax parallax-image" style="background-image:url(img/countcown_bg.png);">
-	<div class="wrapsection">
-	<div class="container">
-		<div class="parallax-content">
-			<div class="row">
-				<div class="col-lg-10 col-lg-offset-1 text-center">
-					<h2 class="section-heading-white wow bounceInDown">Countdown Started</h2>
-					<hr>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-2 col-md-offset-2">
-					<div class="funfacts text-center">
-						<!-- <h1 style="font-size: 90px; font-family: Roboto-Black" id="days" class="counter"></h1> -->
-						<h1 style="font-size: 90px; font-family: Roboto-Black" id="days" class="counter"></h1>
-						<!-- <h1 style="font-size: 90px; font-family: Roboto-Black; color:#fff">00</h1> -->
-						<h4>Days</h4>
-					</div>
-				</div>
-				<div class="col-md-2">
-					<div class="funfacts text-center">
-						<h1 style="font-size: 90px; font-family: Roboto-Black" id="hours" class="counter"></h1>
-						<!-- <h1 style="font-size: 90px; font-family: Roboto-Black; color:#fff">00</h1> -->
-						<h4>Hours</h4>
-					</div>
-				</div>
-				<div class="col-md-2">
-					<div class="funfacts text-center">
-						<h1 style="font-size: 90px; font-family: Roboto-Black" id="minutes" class="counter"></h1>
-						<!-- <h1 style="font-size: 90px; font-family: Roboto-Black; color:#fff">00</h1> -->
 
-						<h4>Minutes</h4>
-					</div>
-				</div>
-				<div class="col-md-2">
-					<div class="funfacts text-center">
-						<h1 style="font-size: 90px; font-family: Roboto-Black" id="seconds" class="counter"></h1>
-						<!-- <h1 style="font-size: 90px; font-family: Roboto-Black; color:#fff">00</h1> -->
-						<h4>Seconds</h4>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-10 col-lg-offset-1 text-center register-button" style="margin-top:70px;">
-						<!--<a style="font-size: 15px; background: white; color: #5e4d33;" data-toggle="modal" data-target=".bs-example-modal-lg" class="btn btn-primary btn-ghost">Register Now</a>-->
-						<a style="font-size: 15px; background: white; color: #5e4d33;" class="btn btn-primary btn-ghost">Register Closed</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	</div>
-	</section>
-	<div class="clearfix">
-	</div>
-
-
-	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-	  <div style="margin-top: 10%;" class="modal-dialog modal-lg">
-	    <div style="background-color: #fff" class="modal-content">
-	    
-	      <div style="color:#7d0034;" class="modal-body">
-	      <h4 style="text-align: center; font-family: ERASMD">Due to high number of teams,</h4>
-	      <h4 style="text-align: center; font-family: ERASMD">we have sent an official letter to your faculty,</h4>
-	      <h4 style="text-align: center; font-family: ERASMD">please register through it.</h4>
-	     
-	      </div>
-	    </div>
-	  </div>
-	</div>
 <!-- Section Timeline
 ================================================== -->
 
@@ -302,7 +226,7 @@
 				    <textarea name="comment" type="" class="form-control" placeholder="Message in here"></textarea>
 				  </div>
 				  <div class="col-md-12">
-				  	<button type="submit" name="SubmitButton" class="btn btn-primary tline-item-right right" style="width: 144px; background-color: #7d0034; font-size: larger; padding: 10px; height: 48px;">Send</button>
+				  	<button type="submit" name="SubmitButton" class="btn btn-primary tline-item-right right" style="width: 144px; background-color: #368b54; font-size: larger; padding: 10px; height: 48px;">Send</button>
 				  </div>
 			</form>
 		</div>
@@ -366,8 +290,14 @@ if(isset($_POST['SubmitButton'])){ //check if form was submitted
 }    
 ?>
 
+<!-- Section Footer image
+================================================== -->
 
-
+<div class="container-fluid">
+<div class="row">
+<img src="img/fg.png" alt="Smiley face" height="100%" width="100%">
+</div>
+</div>
 
 
 <!-- Section Footer
