@@ -167,13 +167,13 @@
 			</div>
 			<h2 class="section-heading wow bounceInDown">LetmeHACK v2.0 <b>2k20</b></h2>
 			<hr>
-			<p style="color:size: 31px;font-size: 19px;font-family: cursive;color: black;">
+			<p style="color:size: 31px;color: black;">
 				LetmeHack Eco 2K20 will be the second product oriented hackathon in Sabaragamuwa University of Sri Lanka which will be organized with the key idea of building up a complete open source product which can be used by everyone.
 			</p>
-			<p style="color:size: 31px;font-size: 19px;font-family: cursive;color: black;">
+			<p style="color:size: 31px;color: black;">
 				This event is planned as a 16-hour product implementation hackathon where university students all over the country are eligible to apply for participation and among them the best 15 teams will be shortlisted for the hackathon. This hackathon where 15 teams representing different universities pre-registered as team members via the official hackathon website would compete each other driving their skills and talents to find a solution to a live issue in the world/country given by the committee. Participants will be focused to implement a product according to the platform given by the organizing team.
 			</p>
-			<p style="color:size: 31px;font-size: 19px;font-family: cursive;color: black;">
+			<p style="color:size: 31px;color: black;">
 				The implemented product should be a useful outcome and it will be judged by a team of technological experts.
 			</p>
 			
