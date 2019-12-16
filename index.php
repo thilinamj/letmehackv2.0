@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="LetmeHack 2K18 will be the first ever product oriented hackathon in Sabaragamuwa University of Sri Lanka">
+<meta name="description" content="LetmeHack 2K20 will be the second ever product oriented hackathon in Sabaragamuwa University of Sri Lanka">
 <meta name="keywords" content="hackathon,Sabaragamuwa,university,computer,informatoin,systems,computing,event">
 <meta name="author" content="thili77">
 <link rel="shortcut icon" href="img/title_logo.png" />
@@ -116,7 +116,7 @@
 		<div class="item active">
 			<div class="carousel-caption">
 				<h1 data-animation="animated bounceInDown">
-				LetMeHACK v2.0 </h1>
+				LetmeHACK v2.0 </h1>
 				<h2 data-animation="animated bounceInUp">
 				Inter University Hackathon 2k20</h2>
 				<h4 id="typedtext"></h4>
@@ -165,7 +165,7 @@
 					<h4>Sabaragamuwa University Premises</h4>
 				</div>
 			</div>
-			<h2 class="section-heading wow bounceInDown">LetMeHACK v2.0 <b>2k20</b></h2>
+			<h2 class="section-heading wow bounceInDown">LetmeHACK v2.0 <b>2k20</b></h2>
 			<hr>
 			<p style="color:size: 31px;font-size: 19px;font-family: cursive;color: black;">
 				LetmeHack Eco 2K20 will be the second product oriented hackathon in Sabaragamuwa University of Sri Lanka which will be organized with the key idea of building up a complete open source product which can be used by everyone.
