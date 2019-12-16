@@ -343,11 +343,15 @@ if(isset($_POST['SubmitButton'])){ //check if form was submitted
 </div>
 <div class="row">
 	<div class="col-md-12 col-sm-12 text-center">
-		
+	<p style="margin-bottom: 5px; color:#ffffff;">
+			<a href="https://github.com/sathiraumesh/policies?organization=sathiraumesh&organization=sathiraumesh" style="color:#ffffff; text-decoration: underline;">code of conduct </a>
+		</p>
 		<p style="margin-bottom: 5px; color:#ffffff;">
 			All rights reserved &copy;2019
 		</p>
+		
 		<p style="color:#ffffff;">Society of Computer Sciences(SOCS) - Sabaragamuwa University of Sri Lanka.</p>
+		
 	</div>
 </div>
 </div>
