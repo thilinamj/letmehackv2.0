@@ -14,7 +14,7 @@ body {
 }
 hr {
 	max-width:50px;
-	border-color:#f05f40;
+	border-color:#368b54;
 	border-width:3px;
 }
 hr.light {
@@ -876,16 +876,16 @@ body {
 	border-radius:50%;
 	margin-bottom:10px;
 	clear:both;
-	color:#fff;
+	color:#368b54f;
 	border:0;
 	background:rgba(0,0,0,0.2);
 }
 .funfacts .icon a {
-	color:#fff;
+	color:#368b54;
 }
 .funfacts .counter {
 	font-size:70px;
-	color:#fff;
+	color:#368b54;
 	font-weight:700;
 }
 .funfacts h4 {
@@ -894,7 +894,7 @@ body {
 	margin:22px 0 0;
 	position:relative;
 	letter-spacing:1px;
-	color: #fff;
+	color: #368b54;
 }
 /*=========================*/
 /* Pricing */
@@ -1056,7 +1056,7 @@ ul .tline-holder>li {
 .tline-item-left .date-icon {
 	margin-right:-20px;
 	float:right;
-	background-color:#303543;
+	background-color:#368b54;
 	color:#fff;
 }
 .tline-item-right {
@@ -1104,7 +1104,7 @@ ul .tline-holder>li {
 	padding-top:12px;
 	width:40px;
 	height:40px;
-	background-color:#ee4b28;
+	background-color:#368b54;
 	border-radius:100%;
 	-moz-border-radius:100%;
 	-webkit-border-radius:100%;

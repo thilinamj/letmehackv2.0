@@ -16,6 +16,9 @@
 <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
 <!-- jQuery -->
 
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+
 <style type="text/css">
 @font-face {
     font-family: ERASMD;
@@ -78,21 +81,29 @@
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 		</button>
-		<a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo.png" alt="logolayana"></a>
+		<a class="navbar-brand page-scroll" href="#page-top"><img src="img/logonewer.png" style="width:150px" alt="logolayana"></a>
 	</div>
 	<!-- Collect the nav links, forms, and other content for toggling -->
 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		<ul  class="nav navbar-nav navbar-right">
 			<li style="margin-right: 10px; margin-left: 10px;">
 			<div class="btn btn-primary faa-tada animated register-button" href="#countdown">
-			<a class="page-scroll" style="font-family: SanPrancisco;" href="#countdown">Coming Soon</a>
+			<a class="page-scroll" style="font-family: SanPrancisco;" href="#countdown">Register</a>
 			</div>
 <!-- <a  style="font-family: ERASMD" class="page-scroll btn btn-primary" href="#countdown">Register</a>  -->
-			</li>
+</li>
 			<li style="margin-right: 10px; margin-left: 10px;">
 			<a  style="font-family: SanPrancisco" class="page-scroll" href="#about">Why LetMeHack</a>
 			</li>
-			
+			<li style="margin-right: 10px; margin-left: 10px;">
+			<a  style="font-family: SanPrancisco" class="page-scroll" href="#tline">Timeline</a>
+			</li>
+			<li style="margin-right: 10px; margin-left: 10px;">
+			<a  style="font-family: SanPrancisco" class="page-scroll" href="#prices">Awards</a>
+			</li>
+			<li style="margin-right: 10px; margin-left: 10px;">
+			<a  style="font-family: SanPrancisco" class="page-scroll" href="#sponsors">Sponsors</a>
+			</li>
 			<li style="margin-right: 10px; margin-left: 10px;">
 			<a  style="font-family: SanPrancisco" class="page-scroll" href="#contact">Contact Us</a>
 			</li>
@@ -144,7 +155,7 @@
 					<img style="height: 60px; width: 60px;" src="img/date.png">
 						<!-- <i class="fa fa-calendar"></i> -->
 					</div>
-					<h4>2020</h4>
+					<h4>1<sup>st</sup> of Feb 2020</h4>
 				</div>
 			</div>
 			<div class="col-md-4">
@@ -153,7 +164,7 @@
 						<img style="height: 60px; width: 60px;" src="img/time.png">
 						<!-- <i class="fa fa-clock-o"></i> -->
 					</div>
-					<h4>-</h4>
+					<h4>9.00 AM Onwards</h4>
 				</div>
 			</div>
 			<div class="col-md-4">
@@ -183,13 +194,383 @@
 </section>
 <!-- Section Fun Facts
 ================================================== -->
+<section id="countdown" class="image" style="background-image:url(img/#);">
+	<div class="wrapsection">
+	<div class="container">
+		<div class="parallax-content">
+			<div class="row">
+				<div class="col-lg-10 col-lg-offset-1 text-center">
+					<h2 class="section-heading wow bounceInDown">Countdown Started</h2>
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2 col-md-offset-2">
+					<div class="funfacts text-center">
+						<!-- <h1 style="font-size: 90px; font-family: Roboto-Black" id="days" class="counter"></h1> -->
+						<h1 style="font-size: 90px; font-family: Roboto-Black" id="days" class="counter"></h1>
+						<!-- <h1 style="font-size: 90px; font-family: Roboto-Black; color:#fff">00</h1> -->
+						<h4>Days</h4>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="funfacts text-center">
+						<h1 style="font-size: 90px; font-family: Roboto-Black" id="hours" class="counter"></h1>
+						<!-- <h1 style="font-size: 90px; font-family: Roboto-Black; color:#fff">00</h1> -->
+						<h4>Hours</h4>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="funfacts text-center">
+						<h1 style="font-size: 90px; font-family: Roboto-Black" id="minutes" class="counter"></h1>
+						<!-- <h1 style="font-size: 90px; font-family: Roboto-Black; color:#fff">00</h1> -->
 
+						<h4>Minutes</h4>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="funfacts text-center">
+						<h1 style="font-size: 90px; font-family: Roboto-Black" id="seconds" class="counter"></h1>
+						<!-- <h1 style="font-size: 90px; font-family: Roboto-Black; color:#fff">00</h1> -->
+						<h4>Seconds</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-10 col-lg-offset-1 text-center register-button" style="margin-top:70px;">
+						<!--<a style="font-size: 15px; background: white; color: #5e4d33;" data-toggle="modal" data-target=".bs-example-modal-lg" class="btn btn-primary btn-ghost">Register Now</a>-->
+						<a style="font-size: 15px; background: white; color: #5e4d33;" class="btn btn-primary btn-ghost">Register Now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	</section>
+	<div class="clearfix">
+	</div>
+
+
+	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+	  <div style="margin-top: 10%;" class="modal-dialog modal-lg">
+	    <div style="background-color: #fff" class="modal-content">
+	    
+	      <div style="color:#7d0034;" class="modal-body">
+	      <h4 style="text-align: center; font-family: ERASMD">Due to high number of teams,</h4>
+	      <h4 style="text-align: center; font-family: ERASMD">we have sent an official letter to your faculty,</h4>
+	      <h4 style="text-align: center; font-family: ERASMD">please register through it.</h4>
+	     
+	      </div>
+	    </div>
+	  </div>
+	</div>
 <!-- Section Timeline
 ================================================== -->
+<section id="tline">
+<div class="container">
+<div class="row">
+	<div class="col-lg-12 text-center">
+		<h2 class="section-heading wow bounceInDown"><b>Event Timeline</b></h2>
+	</div>
+</div>
+</div>
+<br/>
+<div class="container">
+<div class="row">
+	<div class="col-md-12">
+		<ul class="tline-holder">
+			</li>
+			<!-- /tline-->
+			<li class="tline-start">
+			<div class="tline-start-content">
+				<div class="tline-start-icon">
+				</div>
+			</div>
+			</li>
+			<!-- tline-->
+			<li class="tline-item-right wow fadeInRight">
+			<div class="tline-item-content">
+				<div class="date-icon fa fa-rocket">
+				</div>
+				<div class="tline-item-txt text-left">
+					<div class="meta" style="color: #717070;">
+						1<sup>st</sup> of Feb 2020 9.00AM
+					</div>
+					<h3>Beginning</h3>
+					<p style="color: #5e5e5e;">
+							Welcome! The first day of the event. Registration and opening ceremony. Hackathon starts&nbsp;&nbsp;
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					</p>
+				</div>
+			</div>
+			</li>
+			<!-- /tline-->
+			<!-- tline-->
+			<li class="tline-item-left wow fadeInLeft">
+			<div class="tline-item-content">
+				<div class="date-icon fa fa-laptop">
+				</div>
+				<div class="tline-item-txt text-right">
+					<div class="meta" style="color: #717070;">
+						<!-- Comming soon -->
+					</div>
+					<h3>Hackathon</h3>
+					<p style="color: #5e5e5e;">
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hackathon event ongoing
+						
+					</p>
+				</div>
+			</div>
+			</li>
+			<!-- /tline-->
+			<!-- tline-->
+			<li class="tline-item-right wow fadeInRight">
+			<div class="tline-item-content">
+				<div class="date-icon fa fa-trophy">
+				</div>
+				<div class="tline-item-txt text-left">
+					<div class="meta" style="color: #717070;">
+					2<sup>nd</sup> of Feb 2020 8.00AM
+					</div>
+					<h3>Closing</h3>
+					<p style="color: #5e5e5e;">
+							Awarding Ceremony&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					</p>
+				</div>
+			</div>
+			</li>
+			<!-- /tline-->
+			
+			<li class="tline-start">
+			<div class="tline-start-content">
+				<div class="tline-end-icon">
+				</div>
+			</div>
+			</li>
+		</ul>
+	</div>
+</div>
+</div>
+</section>
+
+<!-- Section Services
+================================================== -->
+<section id="prices">
+<div class="container">
+<div class="row">
+	<div class="col-lg-12 text-center">
+		<h2 class="section-heading wow bounceInDown"><b>Awards</b></h2>
+		<hr class="primary">
+	</div>
+</div>
+</div>
+<div class="container">
+<div class="row prices">
+	<!-- begin of row -->
+	<div class="col-lg-4 col-md-6 text-center">
+		<div class="service-box">
+			<div class="faa-pulse animated-hover">
+				<img src="img/2nd.png">
+				<!-- <i class="fa fa-2x fa-trophy wow bounceIn text-fade"></i> -->
+			</div>
+			<h3>Rs. 35,000.00</h3>
+			<p style="margin-bottom: 0px; font-family: ERASMD;" class="text-muted">
+				Team Name
+			</p>
+			<p class="text-muted">
+				University
+			</p>
+		</div>
+	</div>
+	<div class="col-lg-4 col-md-6 text-center">
+		<div class="service-box">
+			<div class="faa-pulse animated-hover">
+				<img src="img/1st.png">
+				<!-- <i class="fa fa-2x fa-trophy wow bounceIn text-fade" data-wow-delay=".1s"></i> -->
+			</div>
+			<h3>Rs. 50,000.00</h3>
+			<p style="margin-bottom: 0px; font-family: ERASMD;" class="text-muted">
+				Team Name
+			</p>
+			<p class="text-muted">
+				University
+			</p>
+		</div>
+	</div>
+	<div class="col-lg-4 col-md-6  third-place text-center">
+		<div class="service-box">
+			<div class="faa-pulse animated-hover">
+				<img src="img/3rd.png">
+				<!-- <i class="fa fa-2x fa-trophy wow bounceIn text-fade" data-wow-delay=".2s"></i> -->
+			</div>
+			<h3>Rs. 25,000.00</h3>
+			<p style="margin-bottom: 0px;" class="text-muted">
+				Team Name
+			</p>
+			<p class="text-muted">
+				University
+			</p>
+		</div>
+	</div>
+</div>
+<!-- end of row -->
+</div>
+</section>
+<div class="clearfix">
+</div>
 
 <!-- Section Sponsors
 ================================================== -->
+<section id="sponsors" class="sponsors">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center sponsor-heading">
+				<h2 class="section-heading wow bounceInDown"><b>Our Sponsors</b></h2>
+				<hr class="primary">
+			</div>
+		</div>
+	</div>
 
+	<div class="container">
+	<div class="row">
+			
+			<div class="col-lg-4 text-center sponsor-logos" >
+				<div class="row" style="padding-right: 40px; padding-left: 40px;">
+					<div class="short-div vertical-center-half">
+						<div class="text-center">
+							<h3>Gold Sponsor</h3>
+						</div>
+						<div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
+							<img class="img img-responsive" src="img/omobio.png" >
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 text-center sponsor-logos" >
+				<div class="row" style="padding-right: 40px; padding-left: 40px;">
+					<div class="short-div vertical-center-half">
+						<div class="text-center">
+							<h3>Silver Sponsor</h3>
+						</div>
+						<div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
+							<img class="img img-responsive" src="img/codegenlogo.png" >
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 text-center sponsor-logos" >
+				<div class="row" style="padding-right: 40px; padding-left: 40px;">
+					<div class="short-div vertical-center-half">
+						<div class="text-center">
+							<h3>Bronze Sponsor</h3>
+						</div>
+						<div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
+							<img class="img img-responsive" src="img/liveroom.png">
+						</div>
+					</div>
+				</div>
+			</div>
+</div>
+			<br><br>
+
+
+			<!-- <div class="col-md-12">
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-xs-6">
+						<img class="img img-responsive" src="img/spons/hackathonlk.png">
+						<p class="text-center">Official Online Events Partner</p>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6">
+						<img class="img img-responsive" src="img/spons/gapstars.png">
+						<p class="text-center">Supporting Partner</p>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6">
+						<img class="img img-responsive" src="img/spons/readme.png">
+						<p class="text-center">Official Media Partner</p>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6">
+						<img class="img img-responsive" src="img/spons/authnex.png">
+						<p class="text-center">Technical Partner</p>
+					</div>
+				</div>
+			</div> -->
+
+			<div class="text-center"><p>---</p></div>
+
+			<br>
+
+			<!-- <div class="col-lg-12 col-md-12">
+			<h3 style="margin: 24px 0 24px 0;" class="text-center">Other Partners</h5>
+				<div class="row">
+					<div class="col-md-2 col-md-offset-4 col-sm-6 col-xs-6">
+						<img class="img img-responsive" src="img/spons/99x.png">
+					</div>
+					<div class="col-md-2 col-sm-6 col-xs-6">
+						<img class="img img-responsive" src="img/spons/ceydigital.png">
+					</div>
+				</div>
+				<br><br>
+				<div class="row">
+					<div class="col-md-2 col-md-offset-4 col-sm-6 col-xs-6">
+						<img class="img img-responsive" src="img/spons/compro.png">
+					</div>
+					<div class="col-md-2 col-sm-6 col-xs-6">
+						<img class="img img-responsive" src="img/spons/hsenid.png">
+					</div>
+				</div>
+				<br><br>
+				<div class="row">
+					<div class="col-md-2 col-md-offset-4 col-sm-6 col-xs-6">
+						<img class="img img-responsive" src="img/spons/lakspace.png">
+					</div>
+					<div class="col-md-2 col-sm-6 col-xs-6">
+						<img class="img img-responsive" src="img/spons/virtusa.png">
+					</div>
+				</div>
+				<br><br>
+				<div class="row">
+					<div class="col-md-2 col-md-offset-4 col-sm-6 col-xs-6">
+						<img class="img img-responsive" src="img/spons/rs_matrix.png">
+					</div>
+					<div class="col-md-2 col-sm-6 col-xs-6">
+						<img class="img img-responsive" src="img/spons/syscolabs.png">
+					</div>
+				</div>
+				<br><br>
+				<div class="row text-center">
+				    <div class="col-md-4 col-md-offset-4 col-sm-12 col-xs-12">
+    					<div class="col-md-4 col-sm-4 col-xs-4">
+    						<img class="img img-responsive" src="img/spons/ifs.png">
+    					</div>
+    					<div class="col-md-4 col-sm-4 col-xs-4">
+    						<img class="img img-responsive" src="img/spons/arimac.png">
+    					</div>
+    					<div class="col-md-4 col-sm-4 col-xs-4">
+    						<img class="img img-responsive" src="img/spons/ryde.png">
+    					</div>
+					</div>
+				</div>
+			</div>
+	</div> -->
+
+	</div>
+	</section>
+	
 <!-- Section Contact
 ================================================== -->
 <section id="contact">
@@ -392,8 +773,8 @@ if(isset($_POST['SubmitButton'])){ //check if form was submitted
 </script>
 
 <script type="text/javascript">
-  $("#getting-started")
-  .countdown("2018/02/24 09:00:00", function(event) {
+  $("#countdown")
+  .countdown("2020/01/16 12:00:00", function(event) {
 	$('#days').text(event.strftime('%D'));
 	$('#hours').text(event.strftime('%H'));
 	$('#minutes').text(event.strftime('%M'));
