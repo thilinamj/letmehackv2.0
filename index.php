@@ -623,8 +623,8 @@ if(isset($_POST['SubmitButton'])){ //check if form was submitted
 	// $dbname = "LetMeHackWeb";
 
 	$servername = "localhost";
-	$username = "letmehack_letme-user";
-	$password = "letme-pass-this-would-be-65";
+	$username = "root";
+	$password = "";
 	$dbname = "letmehack_LetMeHackWeb";
 
 	$fname = $_POST["fname"];
