@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 07, 2020 at 10:30 AM
+-- Generation Time: Jan 07, 2020 at 10:46 AM
 -- Server version: 5.6.21
 -- PHP Version: 5.6.3
 
@@ -50,8 +50,9 @@ CREATE TABLE IF NOT EXISTS `registered_teams` (
   `hacker03UniversityID` varchar(128) DEFAULT NULL,
   `hacker03contactNumber` varchar(16) DEFAULT NULL,
   `hacker03Git` varchar(256) DEFAULT NULL,
-  `hacker03Stack` varchar(256) DEFAULT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
+  `hacker03Stack` varchar(256) DEFAULT NULL,
+  `timePosted` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
 
 --
 -- Indexes for dumped tables
@@ -71,7 +72,7 @@ ALTER TABLE `registered_teams`
 -- AUTO_INCREMENT for table `registered_teams`
 --
 ALTER TABLE `registered_teams`
-MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=11;
+MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=13;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
