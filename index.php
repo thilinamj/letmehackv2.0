@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="LetmeHack 2K20 will be the second ever product oriented hackathon in Sabaragamuwa University of Sri Lanka">
 <meta name="keywords" content="hackathon,Sabaragamuwa,university,computer,informatoin,systems,computing,event">
@@ -88,7 +88,7 @@
 		<ul  class="nav navbar-nav navbar-right">
 			<li style="margin-right: 10px; margin-left: 10px;">
 			<div class="btn btn-primary faa-tada animated register-button" href="#countdown">
-			<a class="page-scroll" style="font-family: SanPrancisco;" href="#countdown">Register</a>
+			<a class="page-scroll" style="font-family: SanPrancisco;" href="http://rsvp.lk/fosslk/letmehack" target="_blank">Register</a>
 			</div>
 <!-- <a  style="font-family: ERASMD" class="page-scroll btn btn-primary" href="#countdown">Register</a>  -->
 </li>
@@ -182,7 +182,7 @@
 				LetmeHack Eco 2K20 will be the second product oriented hackathon in Sabaragamuwa University of Sri Lanka which will be organized with the key idea of building up a complete open source product which can be used by everyone.
 			</p>
 			<p style="color:size: 31px;color: black;">
-				This event is planned as a 16-hour product implementation hackathon where university students all over the country are eligible to apply for participation and among them the best 15 teams will be shortlisted for the hackathon. This hackathon where 15 teams representing different universities pre-registered as team members via the official hackathon website would compete each other driving their skills and talents to find a solution to a live issue in the world/country given by the committee. Participants will be focused to implement a product according to the platform given by the organizing team.
+				This event is planned as a 16-hour product implementation hackathon where university students all over the country are eligible to apply for participation and among them the best 20 teams will be shortlisted for the hackathon. This hackathon where 20 teams representing different universities pre-registered as team members via the official hackathon website would compete each other driving their skills and talents to find a solution to a live issue in the world/country given by the committee. Participants will be focused to implement a product according to the platform given by the organizing team.
 			</p>
 			<p style="color:size: 31px;color: black;">
 				The implemented product should be a useful outcome and it will be judged by a team of technological experts.
@@ -200,7 +200,7 @@
 		<div class="parallax-content">
 			<div class="row">
 				<div class="col-lg-10 col-lg-offset-1 text-center">
-					<h2 class="section-heading wow bounceInDown">Countdown Started</h2>
+					<h2 class="section-heading wow bounceInDown">Registration will be closed</h2>
 					<hr>
 				</div>
 			</div>
@@ -238,7 +238,7 @@
 				<div class="row">
 					<div class="col-lg-10 col-lg-offset-1 text-center register-button" style="margin-top:70px;">
 						<!--<a style="font-size: 15px; background: white; color: #5e4d33;" data-toggle="modal" data-target=".bs-example-modal-lg" class="btn btn-primary btn-ghost">Register Now</a>-->
-						<a style="font-size: 15px; background: white; color: #5e4d33;" class="btn btn-primary btn-ghost">Register Now</a>
+						<a style="font-size: 15px; background: white; color: #368b54;border: 1px solid #368b54;" class="btn btn-primary btn-ghost" href="http://rsvp.lk/fosslk/letmehack" target="_blank">Register Now</a>
 					</div>
 				</div>
 			</div>
@@ -385,10 +385,10 @@
 	<div class="col-lg-4 col-md-6 text-center">
 		<div class="service-box">
 			<div class="faa-pulse animated-hover">
-				<img src="img/2nd.png">
+				<img src="img/1st.png">
 				<!-- <i class="fa fa-2x fa-trophy wow bounceIn text-fade"></i> -->
 			</div>
-			<h3>Rs. 35,000.00</h3>
+			<h3>Rs. 50,000.00</h3>
 			<p style="margin-bottom: 0px; font-family: ERASMD;" class="text-muted">
 				Team Name
 			</p>
@@ -400,10 +400,10 @@
 	<div class="col-lg-4 col-md-6 text-center">
 		<div class="service-box">
 			<div class="faa-pulse animated-hover">
-				<img src="img/1st.png">
+				<img src="img/2nd.png">
 				<!-- <i class="fa fa-2x fa-trophy wow bounceIn text-fade" data-wow-delay=".1s"></i> -->
 			</div>
-			<h3>Rs. 50,000.00</h3>
+			<h3>Rs. 30,000.00</h3>
 			<p style="margin-bottom: 0px; font-family: ERASMD;" class="text-muted">
 				Team Name
 			</p>
@@ -418,7 +418,7 @@
 				<img src="img/3rd.png">
 				<!-- <i class="fa fa-2x fa-trophy wow bounceIn text-fade" data-wow-delay=".2s"></i> -->
 			</div>
-			<h3>Rs. 25,000.00</h3>
+			<h3>Rs. 20,000.00</h3>
 			<p style="margin-bottom: 0px;" class="text-muted">
 				Team Name
 			</p>
@@ -489,84 +489,40 @@
 			<br><br>
 
 
-			<!-- <div class="col-md-12">
-				<div class="row">
-					<div class="col-md-3 col-sm-6 col-xs-6">
-						<img class="img img-responsive" src="img/spons/hackathonlk.png">
-						<p class="text-center">Official Online Events Partner</p>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-6">
-						<img class="img img-responsive" src="img/spons/gapstars.png">
-						<p class="text-center">Supporting Partner</p>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-6">
-						<img class="img img-responsive" src="img/spons/readme.png">
-						<p class="text-center">Official Media Partner</p>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-6">
-						<img class="img img-responsive" src="img/spons/authnex.png">
-						<p class="text-center">Technical Partner</p>
-					</div>
-				</div>
-			</div> -->
-
-			<div class="text-center"><p>---</p></div>
-
-			<br>
-
-			<!-- <div class="col-lg-12 col-md-12">
+			<div class="col-md-12">
 			<h3 style="margin: 24px 0 24px 0;" class="text-center">Other Partners</h5>
 				<div class="row">
-					<div class="col-md-2 col-md-offset-4 col-sm-6 col-xs-6">
-						<img class="img img-responsive" src="img/spons/99x.png">
+					<div class="col-md-3 col-sm-6 col-xs-6 sponsers ">
+						<img class="img img-responsive" src="img/spons/Mozilla.png">
+						<!-- <p class="text-center">Supporting Partner</p> -->
 					</div>
-					<div class="col-md-2 col-sm-6 col-xs-6">
-						<img class="img img-responsive" src="img/spons/ceydigital.png">
+					<div class="col-md-3 col-sm-6 col-xs-6 sponsers">
+						<img class="img img-responsive" src="img/spons/bhsa.png">
+						<!-- <p class="text-center">Official Online Events Partner</p> -->
 					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6 sponsers">
+						<img class="img img-responsive" src="img/spons/git.png">
+						<!-- <p class="text-center">Official Media Partner</p> -->
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6 sponsers">
+						<img class="img img-responsive" src="img/spons/foss.png">
+						<!-- <p class="text-center">Technical Partner</p> -->
+					</div>
+					
 				</div>
-				<br><br>
-				<div class="row">
-					<div class="col-md-2 col-md-offset-4 col-sm-6 col-xs-6">
-						<img class="img img-responsive" src="img/spons/compro.png">
-					</div>
-					<div class="col-md-2 col-sm-6 col-xs-6">
-						<img class="img img-responsive" src="img/spons/hsenid.png">
-					</div>
-				</div>
-				<br><br>
+			</div>
+
+			<div class="col-lg-12 col-md-12">
 				<div class="row">
 					<div class="col-md-2 col-md-offset-4 col-sm-6 col-xs-6">
 						<img class="img img-responsive" src="img/spons/lakspace.png">
 					</div>
 					<div class="col-md-2 col-sm-6 col-xs-6">
-						<img class="img img-responsive" src="img/spons/virtusa.png">
-					</div>
-				</div>
-				<br><br>
-				<div class="row">
-					<div class="col-md-2 col-md-offset-4 col-sm-6 col-xs-6">
-						<img class="img img-responsive" src="img/spons/rs_matrix.png">
-					</div>
-					<div class="col-md-2 col-sm-6 col-xs-6">
-						<img class="img img-responsive" src="img/spons/syscolabs.png">
-					</div>
-				</div>
-				<br><br>
-				<div class="row text-center">
-				    <div class="col-md-4 col-md-offset-4 col-sm-12 col-xs-12">
-    					<div class="col-md-4 col-sm-4 col-xs-4">
-    						<img class="img img-responsive" src="img/spons/ifs.png">
-    					</div>
-    					<div class="col-md-4 col-sm-4 col-xs-4">
-    						<img class="img img-responsive" src="img/spons/arimac.png">
-    					</div>
-    					<div class="col-md-4 col-sm-4 col-xs-4">
-    						<img class="img img-responsive" src="img/spons/ryde.png">
-    					</div>
+						<img class="img img-responsive" src="img/spons/hackathonlk2.png">
 					</div>
 				</div>
 			</div>
-	</div> -->
+	</div>
 
 	</div>
 	</section>
@@ -605,7 +561,7 @@
 				    <textarea name="comment" type="" class="form-control" placeholder="Message in here"></textarea>
 				  </div>
 				  <div class=" col-xs-12 col-sm-12 col-md-12 col-12">
-				  	<button type="submit" name="SubmitButton" class="btn btn-primary tline-item-right right" style="width: 144px; background-color: #368b54; font-size: larger; padding: 10px; height: 48px;">Send</button>
+				  	<button type="submit" name="SubmitButton" class="btn btn-primary tline-item-right right" style="width: 144px; background-color: #368b54; font-size: larger; padding: 10px; height: 48px;"><a class="page-scroll" style="font-family: SanPrancisco;">Send</button>
 				  </div>
 			</form>
 		</div>
@@ -623,8 +579,8 @@ if(isset($_POST['SubmitButton'])){ //check if form was submitted
 	// $dbname = "LetMeHackWeb";
 
 	$servername = "localhost";
-	$username = "root";
-	$password = "";
+	$username = "letmehack_letme-user";
+	$password = "letme-pass-this-would-be-65";
 	$dbname = "letmehack_LetMeHackWeb";
 
 	$fname = $_POST["fname"];
@@ -683,45 +639,23 @@ if(isset($_POST['SubmitButton'])){ //check if form was submitted
 ================================================== -->
 <section class="bg-dark footer-section" style="position: relative;">
 <div class="container">
-<div class="row">
-	<div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-sm-8 col-sm-offset-2">
-		<div class="row">
-			<div class="col-md-1 col-md-offset-4 col-sm-2 col-sm-offset-2 col-xs-2 col-xs-offset-2">
-				<div class="funfacts text-center" style="font-size: 22px;color: white;background-color: #ffffff;border-radius: 40px;width: 36px;">
-					<div class="">
-						<a href="https://www.facebook.com/Letmehack.lk/"><i class="fa fa-facebook"></i></a>
+<div class="row ">
+<ul class="socilmedia">
+<li><div class="funfacts text-center" style="font-size: 22px;color: white;background-color: #ffffff;border-radius: 40px;width: 36px;">
+					<div class="funfacts text-center">
+						<a href="https://www.facebook.com/Letmehack.lk/" style="color:#4267B2"><i class="fa fa-facebook"></i></a>
 					</div>
-					<h4></h4>
-				</div>
-			</div>
-			<div class="col-md-1 col-sm-2 col-xs-2">
-				<div class="funfacts text-center">
+		</div></li>
+<li><div class="funfacts text-center">
 					<div class="funfacts text-center" style="font-size: 22px;color: white;background-color: #ffffff;border-radius: 40px;width: 36px;">
-						<a href="https://twitter.com/letmehack2k18" target="_blank"><i class="fa fa-twitter"></i></a>
+						<a href="https://www.instagram.com/letmehack2020/" style="color:#F77737" ><i class="fa fa-instagram"></i></a>
 					</div>
-					<h4></h4>
-				</div>
-			</div>
-			
-			<div class="col-md-1 col-sm-2 col-xs-2">
-				<div class="funfacts text-center">
-					<div class="funfacts text-center" style="font-size: 22px;color: white;background-color: #ffffff;border-radius: 40px;width: 36px;">
-						<a href="https://www.instagram.com/letmehack2k18/" target="_blank"><i class="fa fa-instagram"></i></a>
-					</div>
-					<h4></h4>
-				</div>
-			</div>
-			<div class="col-md-1 col-sm-2 col-xs-2">
-				<div class="funfacts text-center">
-					<div class="funfacts text-center" style="font-size: 22px;color: white;background-color: #ffffff;border-radius: 40px;width: 36px;">
-						<a href="#"> <i class="fa fa-google"></i></a>
-					</div>
-					<h4></h4>
-				</div>
-			</div>
-		</div>	
-	</div>
+				</div></li>
+</ul>
 </div>
+</div>
+</div>
+
 <div class="row">
 	<div class="col-md-12 col-sm-12 text-center">
 	<p style="margin-bottom: 5px; color:#ffffff;">
@@ -774,7 +708,7 @@ if(isset($_POST['SubmitButton'])){ //check if form was submitted
 
 <script type="text/javascript">
   $("#countdown")
-  .countdown("2020/01/16 12:00:00", function(event) {
+  .countdown("2020/01/17 00:00:00", function(event) {
 	$('#days').text(event.strftime('%D'));
 	$('#hours').text(event.strftime('%H'));
 	$('#minutes').text(event.strftime('%M'));

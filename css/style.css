@@ -21,7 +21,7 @@ hr.light {
 	border-color:#fff;
 }
 a {
-	color:#f05f40;
+	color:#fff;
 	-webkit-transition:all .35s;
 	-moz-transition:all .35s;
 	transition:all .35s;
@@ -103,7 +103,7 @@ aside {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #f05f40;
+	background-color: #f2ebe9;
 }
 
 .navbar-default .navbar-toggle:hover {
@@ -1514,4 +1514,30 @@ canvas { position: fixed; top: 0; left: 0; }
 
 .form-control {
 	border-color: #21d541 !important;
+}
+
+.sponsers{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+/* .fb_icon{
+	display: flex !important; 
+    justify-content: space-between !important;
+} */
+
+
+ul.socilmedia{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	
+}
+li{
+	margin: 5px;
 }
